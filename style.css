@@ -18,11 +18,9 @@ body {
   color: #565656;
 }
 
-.container {
-  margin: 0 auto;
-  max-width: 1240px;
-  padding: 0 50px;
-
+page[size="A4"] {
+  width: 21cm;
+  height: 29.7cm;
 }
 
 .header-page1 {
@@ -55,18 +53,24 @@ body {
 
 .header-input__text {
   font-size: 16px;
-  font-weight: 600;
+  font-weight: 400;
   color: #c2c2c2;
+ font-weight: 600;
   text-transform: uppercase;
-  padding: 0 10px;
+  white-space: nowrap;
+  
 }
 
 .header__input {
-  width: 200px;
+  width: auto;
   border: 0;
   outline-style: none;
 }
-
+.logo
+{
+  width: 250px;
+  
+}
 
 input {
 
@@ -102,6 +106,7 @@ input:focus {
 
 .text {
   margin-top: 10px;
+  text-align: justify;
 }
 
 .green {
@@ -126,6 +131,18 @@ input:focus {
 .input-last_name {
   width: 100%;
 
+}
+.wrap {
+ 
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
 }
 
 .wrap-id {
@@ -248,7 +265,7 @@ input {
   position: absolute;
   content: "Фото застрахованного объекта (общий вид 1)";
   padding: 2px;
-  margin-top: 76%;
+  margin-top: 45%;
 
 }
 
@@ -256,7 +273,7 @@ input {
   position: absolute;
   content: "Фото застрахованного объекта (общий вид 2)";
   padding: 2px;
-  margin-top: 76%;
+  margin-top: 45%;
 
 }
 
@@ -264,7 +281,7 @@ input {
   position: absolute;
   content: "Фото застрахованного объекта (идентификационный номер)";
   padding: 2px;
-  margin-top: 76%;
+  margin-top: 45%;
 }
 
 .wrap-inline {
@@ -293,4 +310,7 @@ input {
 textarea{
   width: 100%;
   border-radius: 5px;
+}
+
+ 
 }
