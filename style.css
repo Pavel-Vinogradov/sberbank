@@ -289,3 +289,8 @@ input {
   -ms-flex-pack: justify;
   justify-content: space-between;
 }
+
+textarea{
+  width: 100%;
+  border-radius: 5px;
+}
