@@ -13,9 +13,10 @@
 html,
 body {
   font-family: 'Tahoma', sans-serif;
-  font-size: 16px;
-  line-height: 1.4;
+  font-size: 14px;
+  line-height: 1;
   color: #565656;
+  font-weight: 300;
 }
 
 page[size="A4"] {
@@ -24,7 +25,7 @@ page[size="A4"] {
 }
 
 .header-page1 {
-  padding-top: 50px;
+
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -46,19 +47,17 @@ page[size="A4"] {
   -ms-flex-align: center;
   align-items: center;
   border-radius: 5px;
-  padding: 10px;
-
-
+  padding: 5px;
 }
 
 .header-input__text {
-  font-size: 16px;
+
   font-weight: 400;
   color: #c2c2c2;
- font-weight: 600;
+  font-weight: 600;
   text-transform: uppercase;
   white-space: nowrap;
-  
+
 }
 
 .header__input {
@@ -66,10 +65,10 @@ page[size="A4"] {
   border: 0;
   outline-style: none;
 }
-.logo
-{
+
+.logo {
   width: 250px;
-  
+
 }
 
 input {
@@ -79,33 +78,33 @@ input {
 }
 
 input:focus {
-  border: 3px solid #269b40;
+  border: 2px solid #269b40;
 
 }
 
 
 .title__text {
   text-transform: uppercase;
-  font-size: 18px;
+  font-size: 16px;
   text-transform: uppercase;
   font-family: 'Tahoma-bold', sans-serif;
-  margin-bottom: 10px;
+  margin-bottom: 5px;
 }
 
 .centre {
   text-align: center;
-  margin: 10px 0;
+  margin: 5px 0;
 }
 
 .section {
-  margin: 20px 0;
+  margin: 10px 0;
   padding: 10px;
-  border: 3px solid #269b40;
+  border: 2px solid #269b40;
   border-radius: 5px;
 }
 
 .text {
-  margin-top: 10px;
+  margin-top: 5px;
   text-align: justify;
 }
 
@@ -132,8 +131,9 @@ input:focus {
   width: 100%;
 
 }
+
 .wrap {
- 
+
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -193,7 +193,7 @@ input:focus {
 }
 
 .input-adress {
-  height: 105px;
+  height: 92px;
 }
 
 .article {
@@ -228,8 +228,8 @@ input {
 
 
 .header-input2 {
-
-  margin-bottom: 20px;
+  text-align: end;
+  margin-bottom: 10px;
 }
 
 .header-input__text2 {
@@ -241,7 +241,7 @@ input {
 }
 
 .header__input2 {
-  width: 225px;
+  width: auto;
 
 
 }
@@ -307,10 +307,10 @@ input {
   justify-content: space-between;
 }
 
-textarea{
+textarea {
   width: 100%;
   border-radius: 5px;
 }
 
- 
+
 }
