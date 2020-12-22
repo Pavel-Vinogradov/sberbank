@@ -266,3 +266,22 @@ input {
   padding: 2px;
   margin-top: 76%;
 }
+
+.wrap-inline {
+  display: inline-flex;
+  width: 90%;
+  justify-content: space-between;
+}
+
+.header-page4 {
+  padding-top: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: end;
+  -ms-flex-align: end;
+  align-items: end;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
