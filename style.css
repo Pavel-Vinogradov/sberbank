@@ -26,132 +26,200 @@ body {
 
 .header-input {
   height: 40px;
-  border:2px solid #c2c2c2 ;
-  display: flex; 
+  border: 2px solid #c2c2c2;
+  display: flex;
   align-items: center;
   border-radius: 5px;
   padding: 10px;
-   
-  
+
+
 }
-.header-input__text{
+
+.header-input__text {
   font-size: 16px;
   font-weight: 600;
   color: #c2c2c2;
   text-transform: uppercase;
-  padding:0 10px;
+  padding: 0 10px;
 }
-.header__input
-{
-   width: 200px;
-   border: 0;
-   outline-style:none;
+
+.header__input {
+  width: 200px;
+  border: 0;
+  outline-style: none;
 }
 
 
-input  {
-   
+input {
+
   border-radius: 5px;
   height: 35px;
 }
 
-input:focus{
+input:focus {
   border: 3px solid #269b40;
-   
-  }
+
+}
 
 
-  .title__text
-  {
-    text-transform: uppercase;
-    font-size: 18px;
-    text-transform: uppercase;
-    font-family: 'Tahoma-bold',sans-serif;
-    
-  }
+.title__text {
+  text-transform: uppercase;
+  font-size: 18px;
+  text-transform: uppercase;
+  font-family: 'Tahoma-bold', sans-serif;
 
-  .centre
-  {
-    text-align: center;
-    margin: 10px 0;
-  }
-  .section{
-    margin: 20px 0;
-    padding: 10px;
-    border: 3px solid #269b40;
-    border-radius:5px ;
-  }
-  .text{
-    margin-top: 10px;
-  }
-  .green
-  {
-    color:#269b40 ;
-  }
-  .section-id
-  {
-    display: flex;
-    justify-content: space-between;
-    
-  }
-  .section-id__man{
-    flex-basis: 47%;
-  }
-  .input-last_name
-  {
-    width: 100%;
-    
-  }
- .wrap-id
- {
-   display: flex;
-   align-items: center;
-   justify-content: space-between;
- }
+}
 
-.input-respons
-{
+.centre {
+  text-align: center;
+  margin: 10px 0;
+}
+
+.section {
+  margin: 20px 0;
+  padding: 10px;
+  border: 3px solid #269b40;
+  border-radius: 5px;
+}
+
+.text {
+  margin-top: 10px;
+}
+
+.green {
+  color: #269b40;
+}
+
+.section-id {
+  display: flex;
+  justify-content: space-between;
+
+}
+
+.section-id__man {
+  flex-basis: 47%;
+}
+
+.input-last_name {
+  width: 100%;
+
+}
+
+.wrap-id {
+  flex-wrap: wrap;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.input-respons {
   width: 100%;
 }
- 
- .section-id__adress
- {
-   flex-basis: 50%;
- }
- .wrap-second
- {
-   display: flex;
-   align-items: center;
-   justify-content: space-between;
- }
 
- .input__getdate,.input__code,.input__inn,.input__phone,.label,.model ,.sum ,.bonus
- {
-   flex-basis: 49%;
- }
-.input-adress
-{
+.section-id__adress {
+  flex-basis: 50%;
+}
+
+.wrap-second {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.input__getdate,
+.input__code,
+.input__inn,
+.input__phone,
+.label,
+.model,
+.sum,
+.bonus {
+  flex-basis: 49%;
+}
+
+.input-adress {
   height: 105px;
-} 
-.article
-{
+}
+
+.article {
   display: flex;
   justify-content: space-between;
 }
-.note__first ,.note__second{
+
+.note__first,
+.note__second {
   flex-basis: 49%;
 }
-input{
+
+input {
   width: 100%;
 }
 
-.title__number
-{
+.title__number {
   text-transform: uppercase;
   font-size: 16px;
   text-transform: uppercase;
-  font-family: 'Tahoma-bold',sans-serif;
+  font-family: 'Tahoma-bold', sans-serif;
 }
-.ib{
+
+.ib {
   display: inline-block;
+}
+
+
+.header-input2 {
+
+  margin-bottom: 20px;
+}
+
+.header-input__text2 {
+  font-size: 16px;
+  font-weight: 600;
+
+  text-transform: uppercase;
+  padding: 0 10px;
+}
+
+.header__input2 {
+  width: 225px;
+
+
+}
+
+.left {
+  text-align: end;
+  margin-bottom: 10px;
+}
+
+.square {
+  width: 400px;
+  height: 400px;
+  border: 2px solid;
+  flex-basis: 48%;
+  margin-bottom: 40px;
+  position: relative;
+}
+
+.square:nth-child(1)::after {
+  position: absolute;
+  content: "Фото застрахованного объекта (общий вид 1)";
+  padding: 2px;
+  margin-top: 76%;
+
+}
+
+.square:nth-child(2)::after {
+  position: absolute;
+  content: "Фото застрахованного объекта (общий вид 2)";
+  padding: 2px;
+  margin-top: 76%;
+
+}
+
+.square:nth-child(3)::after {
+  position: absolute;
+  content: "Фото застрахованного объекта (идентификационный номер)";
+  padding: 2px;
+
+  margin-top: 76%;
 }
