@@ -85,7 +85,7 @@ input:focus {
   font-size: 18px;
   text-transform: uppercase;
   font-family: 'Tahoma-bold', sans-serif;
-
+  margin-bottom: 10px;
 }
 
 .centre {
