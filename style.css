@@ -139,7 +139,7 @@ input:focus{
   justify-content: space-between;
 }
 .note__first ,.note__second{
-  flex-basis: 48%;
+  flex-basis: 49%;
 }
 input{
   width: 100%;
