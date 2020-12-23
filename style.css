@@ -25,7 +25,10 @@ body {
   text-align: justify;
 }
 
-
+.container {
+  max-width: 1140px;
+  margin: 0 auto;
+}
 
 .header-page1 {
 
@@ -72,6 +75,10 @@ body {
 .logo {
   width: 250px;
 
+}
+
+.item {
+  flex-basis: 32%;
 }
 
 input {
@@ -243,7 +250,7 @@ input {
 
 .header-input__text2 {
 
-  font-weight: 600;
+   
 
   text-transform: uppercase;
   padding: 0 10px;
@@ -301,6 +308,10 @@ textarea {
 }
 
 @media print {
+  .container {
+    max-width: auto;
+    margin: auto;
+  }
 
   /*для печати*/
   .square:nth-child(1)::after {
