@@ -75,13 +75,17 @@ body {
 }
 
 input {
-
-  border-radius: 5px;
+  border-width: 1px;
+  border-style: solid;
+  border-color: -internal-light-dark(rgb(118, 118, 118), rgb(133, 133, 133));
+  border-image: initial;
   height: 25px;
+  outline: 0;
+  border-radius: 5px;
 }
 
 input:focus {
-  border: 2px solid #269b40;
+  border: 1px solid #269b40;
 
 }
 
@@ -217,6 +221,7 @@ input:focus {
 
 input {
   width: 100%;
+
 }
 
 .title__number {
