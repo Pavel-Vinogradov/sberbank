@@ -308,6 +308,28 @@ textarea {
   border-radius: 5px;
 }
 
+.square:nth-child(1)::after {
+  position: absolute;
+  content: "Фото застрахованного объекта (общий вид 1)";
+
+  margin-top: 77%;
+
+}
+
+.square:nth-child(2)::after {
+  position: absolute;
+  content: "Фото застрахованного объекта (общий вид 2)";
+
+  margin-top: 77%;
+
+}
+
+.square:nth-child(3)::after {
+  position: absolute;
+  content: "Фото застрахованного объекта (идентификационный номер)";
+
+  margin-top: 77%;
+}
 @media print {
   .container {
     max-width: auto;
