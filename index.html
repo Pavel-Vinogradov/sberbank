@@ -17,7 +17,7 @@
     #page_1 {
       position: relative;
       overflow: hidden;
-      margin: 31px 0px 12px 46px;
+      /* margin: 31px 0px 12px 46px; */
       padding: 0px;
       border: none;
       width: 748px;
@@ -99,7 +99,7 @@
     #page_2 {
       position: relative;
       overflow: hidden;
-      margin: 46px 0px 12px 41px;
+      /* margin: 46px 0px 12px 41px; */
       padding: 0px;
       border: none;
       width: 753px;
@@ -188,7 +188,7 @@
     #page_3 {
       position: relative;
       overflow: hidden;
-      margin: 46px 0px 12px 41px;
+      /* margin: 46px 0px 12px 41px; */
       padding: 0px;
       border: none;
       width: 753px;
@@ -261,7 +261,7 @@
     #page_4 {
       position: relative;
       overflow: hidden;
-      margin: 34px 0px 12px 41px;
+      /* margin: 34px 0px 12px 41px; */
       padding: 0px;
       border: none;
       width: 753px;
@@ -292,7 +292,7 @@
     #page_5 {
       position: relative;
       overflow: hidden;
-      margin: 34px 0px 12px 0px;
+      /* margin: 34px 0px 12px 0px; */
       padding: 0px;
       border: none;
       width: 794px;
@@ -1558,7 +1558,7 @@
     .header__input {
       margin-left: 40px;
       padding: 3px;
-      display: inline-block;
+      display: inline;
       border: 2px solid #b3b2b2;
       border-radius: 5px
     }
@@ -1592,13 +1592,14 @@
 
     <DIV class="dclr"></DIV>
     <DIV id="id1_1">
-      <span class="header_id1">
-        <span style="display: inline-block; float: left;"><img class="logo" src="jpg/logo.png" alt="logo"></span>
-        <span class="header__input">
+      <div class="header_id1">
+        <div style="display: inline; float: left;"><img class="logo" src="jpg/logo.png" alt="logo"></div>
+
+        <div class="header__input">
           <span class="p0 ft0">НОМЕР ПОЛИСА</span> <input class="input__header" type="text">
           <span class="p1 ft0">ОТ</span> <input class="input__header" type="text">
-        </span>
-      </span>
+        </div>
+      </div>
 
 
       <!-- <TABLE cellpadding=0 cellspacing=0 class="t0">
@@ -1709,7 +1710,7 @@
       </TABLE>
       <P class="p9 ft13"><SPAN class="ft12">*</SPAN>Для получения информации от Страховщика и направления информации
         Страховщику (в том числе юридически значимых сообщений).</P>
-    </DIV>
+    </div>
     <DIV id="id1_2">
       <DIV id="id1_2_1">
         <P class="p10 ft5">3.ВЫГОДОПРИОБРЕТАТЕЛЬ</P>
