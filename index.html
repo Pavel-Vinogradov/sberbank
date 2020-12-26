@@ -18,11 +18,11 @@
 */
 
 
-    @font-face {
+    /* @font-face {
       font-family: 'Tahoma';
       src: local('font'), local('font'),
-        url('font/Tahoma.woff2') format('woff2'),
-        url('font/Tahoma.woff') format('woff'),
+        url('file:///font/Tahoma.woff2') format('woff2'),
+        url('file:///font/Tahoma.woff') format('woff'),
         url('font/Tahoma.ttf') format('truetype');
       font-weight: 400;
       font-style: normal;
@@ -37,7 +37,7 @@
         url('font/ahoma-Bold.ttf') format('truetype');
       font-weight: 700;
       font-style: normal;
-    }
+    } */
 
     * {
       -webkit-box-sizing: border-box;
@@ -51,7 +51,7 @@
 
     html,
     body {
-      font-family: 'Tahoma', sans-serif;
+      font-family: Tahoma, sans-serif;
       font-size: 13px;
       line-height: 1;
       color: #565656;
@@ -134,9 +134,9 @@
 
     .title__text {
       text-transform: uppercase;
-
+      font-weight: 600;
       text-transform: uppercase;
-      font-family: 'Tahoma-bold', sans-serif;
+      font-family: Tahoma, sans-serif;
       margin-bottom: 5px;
     }
 
@@ -268,9 +268,9 @@
 
     .title__number {
       text-transform: uppercase;
-
+      font-weight: 600;
       text-transform: uppercase;
-      font-family: 'Tahoma-bold', sans-serif;
+      font-family: Tahoma, sans-serif;
     }
 
     .ib {
@@ -318,7 +318,7 @@
       display: -webkit-inline-box;
       display: -ms-inline-flexbox;
       display: inline-flex;
-      width: 96.5%;
+      width: 94.5%;
       -webkit-box-pack: justify;
       -ms-flex-pack: justify;
       justify-content: space-between;
@@ -507,8 +507,6 @@
                 <input type="text" class="input-inn">
               </div>
             </div>
-
-
             <p class="text">Адрес электронной почты *</p>
             <input type="text" class="input-email">
           </div>
@@ -773,6 +771,7 @@
             телефонов, режиме работы Страховщика, которая позволила
             ему сделать правильный выбор страховой услуги; </span>
           <br>
+
           <span class="title__number">9.1.3.</span>
           <span class="text">в соответствии с п.1 ст.18 Федерального закона от
             13.03.2006 N 38-ФЗ «О рекламе» свое согласие на получение
@@ -780,6 +779,7 @@
             посредством использования телефонной, факсимильной,
             подвижной радиотелефонной связи; </span>
           <br>
+
           <span class="title__number">9.1.4.</span>
           <span class="text"> что он не является должностным лицом публичных
             международных организаций или лицом, замещающим
@@ -806,6 +806,7 @@
             Президентом Российской Федерации;
           </span>
           <br>
+
           <span class="title__number">9.1.5.</span>
           <span class="text">что он не является иностранным публичным должностным
             лицом (ИПДЛ), членом семьи иностранного публичного
@@ -815,6 +816,7 @@
             и детьми, дедушкой, бабушкой и внуками) полнородным и
             неполнородным (имеющим общих отца или мать) братом и
             сестрой, усыновителем и усыновленным; </span>
+
           <br>
           <span class="title__number">9.1.6.</span>
           <span class="text">что до заключения Полиса, ему была предоставлена
@@ -889,6 +891,7 @@
             имеющих признаки страхового случая.
           </span>
           <br>
+          <br>
           <span class="title__number">9.1.7.</span>
           <span class="text">надлежащим способом вручения Полиса и Правил
             страхования является любой из перечисленных:</span>
@@ -899,13 +902,14 @@
             <li>- передача Полиса и Правил страхования на бумажном носителе
               информации.</li>
           </ul>
-
+          <br>
+          <br>
           <span class="title__number">9.1.8.</span>
           <span class="text">Полис и Правила страхования вручены Страхователю
             выбранным им способом, из перечисленных выше, Страхователь
             ознакомился(-ась) с ними до заключения Полиса, согласен (-на)
             с ними и обязуется их исполнять.</span>
-          <br>
+          <br><br>
           <span class="title__number">9.1.9.</span>
           <span class="text">свое согласие на использование Страховщиком
             факсимильного
@@ -920,12 +924,19 @@
           <br>
           <br>
           <br>
+          <br>
+          <br>
+          <br>
+          <br> <br>
+          <br>
+
           <h1 class="title__text">10. ЗАКЛЮЧИТЕЛЬНЫЕ ПОЛОЖЕНИЯ</h1>
           <span class="title__number">10.1.</span>
           <span class="text">На основании ст. 435 и 438 Гражданского кодекса РФ
             согласием Страхователя заключить настоящий Полис на
             предложенных Страховщиком условиях (акцептом) считается
             оплата страховой премии.</span>
+          <br>
           <br>
           <span class="title__number">10.2.</span>
           <span class="text">При заключении, исполнении, изменении и расторжении
@@ -942,17 +953,20 @@
         <div class="note__second">
           <span> графического воспроизведения подписи и печати Страховщика.</span>
           <br>
+          <br>
           <span class="title__number">9.1.10.</span>
           <span class="text">что он ознакомлен с информацией о том, что договор
             страхования имущества (Полис), заключенный при отсутствии у
             Страхователя или Выгодоприобретателя интереса в сохранении
             застрахованного имущества, недействителен.</span>
           <br>
+          <br>
           <span class="title__number">9.1.11.</span>
           <span class="text">Страхователь, заключая настоящий Полис и оплачивая
             страховую премию по нему подтверждает, что он ознакомлен
             с Правилами страхования, согласен с ними и обязуется их
             исполнять.</span>
+          <br>
           <br>
           <span class="title__number">9.1.12.</span>
           <span class="text">Любые документы, уведомления и извещения в связи
@@ -970,14 +984,17 @@
             Страховщиком лицу или иным способом, признаются Сторонами
             оригиналами соответствующих документов, исходящими от
             Страхователя.</span>
-          <br>
-          <br>
-          <br>
           <span>законодательства, применимых норм международного права
             в области противодействия коррупции. Термин «коррупция»
             понимается в значении, определенном в статье 1 Федерального
             закона от 25.12.2008 № 273-ФЗ «О противодействии коррупции».</span>
           <br>
+          <br>
+          <br>
+          <br>
+          <br>
+
+
           <span class="title__number">10.3.</span>
           <span class="text">Все, что не урегулировано настоящим Полисом, подлежит
             урегулированию в соответствии с Правилами и действующим
