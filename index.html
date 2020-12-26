@@ -874,15 +874,14 @@
 
     .p4 {
       text-align: left;
-      padding-left: 7px;
-      margin-top: 16px;
+      /* padding-left: 7px; */
       margin-bottom: 0px;
     }
 
     .p5 {
       text-align: justify;
-      padding-left: 8px;
-      padding-right: 49px;
+      /* padding-left: 8px;
+      padding-right: 49px; */
       margin-top: 0px;
       margin-bottom: 0px;
     }
@@ -1550,14 +1549,14 @@
       color: #575756;
     }
 
-    img {
-      width: 200px;
+    .logo {
+      width: 230px;
     }
 
 
 
     .header__input {
-      margin-left: 65px;
+      margin-left: 40px;
       padding: 3px;
       display: inline-block;
       border: 2px solid #b3b2b2;
@@ -1567,6 +1566,18 @@
     .input__header {
       border: 0;
 
+    }
+
+    .signature {
+      margin-top: 70px;
+      width: 550px;
+    }
+
+    .container {
+      border: 2px solid #21a038;
+      border-radius: 5px;
+      padding: 8px;
+      margin-right: 45px;
     }
   </style>
   <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
@@ -1584,7 +1595,7 @@
     <DIV class="dclr"></DIV>
     <DIV id="id1_1">
       <div class="header_id1">
-        <img id="img" src="../jpg/logo.png" alt="logo">
+        <div style="display: inline-block; float: left;"><img class="logo" src="../jpg/logo.png" alt="logo"></div>
         <div class="header__input">
           <span class="p0 ft0">НОМЕР ПОЛИСА</span> <input class="input__header" type="text">
           <span class="p1 ft0">ОТ</span> <input class="input__header" type="text">
@@ -1629,13 +1640,16 @@
           sberbankins.ru/upload/iblock/ae5/Pravila-kompleksnogo-strakhovaniya-elektro-53.pdf</NOBR> и являются
         неотъемлемой частью настоящего Полиса. В случае наличия противоречий между положениями настоящего Полиса и
         Правилами страхования применяются положения, изложенные в настоящем Полисе.</P>
-      <P class="p4 ft5"><SPAN class="ft5">1.</SPAN><SPAN class="ft6">СТРАХОВЩИК</SPAN></P>
-      <P class="p5 ft7"><SPAN class="ft7">ООО</SPAN><SPAN class="ft8">СК «Сбербанк страхование», 121170 г. Москва, ул.
-          Поклонная, д. 3, корп. 1, 1 этаж, пом. 3, тел. 8 800 555 55 57, лицензия Банка России на осуществление
-          добровольного имущественного страхования СИ № 4331, выдана 12.10.2020 бессрочно. Информация о Страховщике,
-          контактах и режиме работы структурных подразделений Страховщика размещена на сайте: https://sber.insure.
-          Банковские реквизиты: р/с № 40701810600020000006 в ПАО Сбербанк, ИНН 7706810747, КПП 773001001, к/с №
-          30101810400000000225 в ГУ Банка России по ЦФО, БИК 044525225.</SPAN></P>
+      <div class="container">
+        <P class="p4 ft5"><SPAN class="ft5">1.</SPAN><SPAN class="ft6">СТРАХОВЩИК</SPAN></P>
+        <P class="p5 ft7"><SPAN class="ft7">ООО</SPAN><SPAN class="ft8">СК «Сбербанк страхование», 121170 г. Москва, ул.
+            Поклонная, д. 3, корп. 1, 1 этаж, пом. 3, тел. 8 800 555 55 57, лицензия Банка России на осуществление
+            добровольного имущественного страхования СИ № 4331, выдана 12.10.2020 бессрочно. Информация о Страховщике,
+            контактах и режиме работы структурных подразделений Страховщика размещена на сайте: https://sber.insure.
+            Банковские реквизиты: р/с № 40701810600020000006 в ПАО Сбербанк, ИНН 7706810747, КПП 773001001, к/с №
+            30101810400000000225 в ГУ Банка России по ЦФО, БИК 044525225.</SPAN></P>
+      </div>
+
       <P class="p6 ft5"><SPAN class="ft5">2.</SPAN><SPAN class="ft9">СТРАХОВАТЕЛЬ</SPAN></P>
       <TABLE id="table" cellpadding=0 cellspacing=0 class="t1">
         <TR>
@@ -2027,8 +2041,9 @@
       <P class="p18 ft3">ПРИЛОЖЕНИЯ:</P>
       <P class="p44 ft13"><SPAN class="ft19">1. </SPAN>Фотографические изображения Застрахованного имущества <SPAN
           class="ft19">2. </SPAN>Порядок осуществления страховой выплаты в натуральной форме.</P>
-      <P class="p45 ft3">ОТ ИМЕНИ СТРАХОВЩИКА:</P>
-      <TABLE cellpadding=0 cellspacing=0 class="t4">
+
+      <div><img class="signature" src="../jpg/signature.png" alt=""></div>
+      <!-- <TABLE cellpadding=0 cellspacing=0 class="t4">
         <TR>
           <TD class="tr10 td15">
             <P class="p0 ft13">От Страховщика:</P>
@@ -2053,7 +2068,7 @@
             <P class="p0 ft13">(на основании Устава)</P>
           </TD>
         </TR>
-      </TABLE>
+      </TABLE> -->
     </DIV>
     <DIV id="id3_3">
 
