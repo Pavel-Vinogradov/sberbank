@@ -1,16 +1,22 @@
 html,
 body {
   font-family: Tahoma, sans-serif;
-  font-size: 13px;
+  font-size: 12px;
   line-height: 12px;
   text-align: justify;
   color: #575756;
 }
 
 .title {
-  font-size: 13px;
+  font-size: 12px;
   line-height: 15px;
   font-weight: bold;
+}
+
+textarea {
+  border-radius: 5px;
+  width: 340px;
+  height: 70px;
 }
 
 .page {
@@ -21,7 +27,10 @@ body {
 
 input {
   border-radius: 5px;
-  border: 1px solid;
+  border-width: 1px;
+  border-style: solid;
+  border-color: -internal-light-dark(rgb(118, 118, 118), rgb(133, 133, 133));
+  height: 20px;
   outline: none;
 }
 
@@ -93,7 +102,7 @@ input {
 }
 
 .section--right>div {
-  margin-bottom: 9px;
+  margin-bottom: 7px;
 }
 
 
@@ -104,7 +113,27 @@ input {
 }
 
 .id1 {
-  max-width: 80%;
+  max-width: 90%;
+}
+
+.section__input {
+  width: 93%;
+}
+
+.section__input--left {
+  width: 111%;
+}
+
+.space-between {
+  justify-content: space-between;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+
+}
+
+.section__input--right {
+  width: 99%;
 }
 
 @media print {
