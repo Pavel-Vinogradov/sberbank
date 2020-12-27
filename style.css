@@ -22,6 +22,7 @@ body {
 input {
   border-radius: 5px;
   border: 1px solid;
+  outline: none;
 }
 
 .logo {
@@ -68,6 +69,42 @@ input {
 .green {
   color: #3c8e4e;
   margin-bottom: 5px;
+}
+
+.text {
+  margin-bottom: 5px;
+}
+
+.wrap {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+
+}
+
+.section--right,
+.section--left {
+  max-width: 50%;
+}
+
+.section--left>div {
+  margin-bottom: 10px;
+}
+
+.section--right>div {
+  margin-bottom: 9px;
+}
+
+
+.wrap_id1,
+.wrap_id2,
+.wrap_id3 {
+  width: 32%;
+}
+
+.id1 {
+  max-width: 80%;
 }
 
 @media print {
