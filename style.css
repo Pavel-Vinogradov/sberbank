@@ -14,7 +14,7 @@ body {
 }
 
 .page {
-  width: 21cm;
+  width: auto;
   height: 29.7cm;
   border: 1px solid;
 }
