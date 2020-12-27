@@ -22,7 +22,7 @@ textarea {
 .page {
   width: 27cm;
   height: 29.7cm;
-  border: 1px solid;
+  padding-top: 10px;
 }
 
 input {
