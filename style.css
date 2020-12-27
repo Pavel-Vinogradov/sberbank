@@ -30,7 +30,7 @@ input {
 
 .header__input {
 
-  border: 1px solid #b3b2b2;
+  border: 2px solid #b3b2b2;
   color: #b3b2b2;
   border-radius: 5px;
   padding: 3px;
@@ -49,10 +49,18 @@ input {
 
 .input__header {
   border: none;
+  display: inline;
 
 }
 
 .centre {
   text-align: center;
+  margin: 10px 0;
+}
+
+.section {
+  border: 2px solid #3c8e4e;
+  border-radius: 5px;
+  padding: 5px;
   margin: 10px 0;
 }
