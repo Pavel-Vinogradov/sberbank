@@ -124,13 +124,7 @@ input {
   width: 111%;
 }
 
-.space-between {
-  justify-content: space-between;
-  -webkit-box-pack: justify;
-  -webkit-justify-content: space-between;
-  -ms-flex-pack: justify;
-
-}
+ 
 
 .section__input--right {
   width: 99%;
