@@ -859,15 +859,15 @@
     }
 
     .p2 {
-      text-align: left;
-      padding-left: 179px;
-      margin-top: 16px;
+      text-align: center;
+      /* padding-left: 179px; */
+      margin-top: 20px;
       margin-bottom: 0px;
     }
 
     .p3 {
       text-align: justify;
-      padding-right: 41px;
+      /* padding-right: 41px; */
       margin-top: 5px;
       margin-bottom: 0px;
     }
@@ -912,7 +912,7 @@
     .p9 {
       text-align: left;
       padding-left: 3px;
-      margin-top: 40px;
+
       margin-bottom: 0px;
     }
 
@@ -1550,17 +1550,18 @@
     }
 
     .logo {
-      width: 230px;
+      width: 250px;
     }
 
 
 
     .header__input {
-      margin-left: 40px;
+      margin-left: 45px;
       padding: 3px;
       display: inline;
       border: 2px solid #b3b2b2;
-      border-radius: 5px
+      border-radius: 5px;
+      padding-bottom: 6px;
     }
 
     .input__header {
@@ -1573,11 +1574,21 @@
       width: 550px;
     }
 
+    .header_id1 {
+      margin-top: 10px;
+    }
+
     .container {
+      margin: 10px 0;
       border: 2px solid #21a038;
       border-radius: 5px;
       padding: 8px;
-      margin-right: 45px;
+
+    }
+
+    .p10__input {
+      width: 99%;
+      border-radius: 5px;
     }
   </style>
   <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
@@ -1649,71 +1660,80 @@
             30101810400000000225 в ГУ Банка России по ЦФО, БИК 044525225.</SPAN></P>
       </div>
 
-      <P class="p6 ft5"><SPAN class="ft5">2.</SPAN><SPAN class="ft9">СТРАХОВАТЕЛЬ</SPAN></P>
-      <TABLE id="table" cellpadding=0 cellspacing=0 class="t1">
-        <TR>
-          <TD class="tr0 td3">
-            <P class="p0 ft10">ФИО страхователя</P>
-          </TD>
-          <TD class="tr0 td4">
-            <P class="p0 ft1">&nbsp;</P>
-          </TD>
-          <TD class="tr0 td5">
-            <P class="p7 ft10">Адрес места регистрации</P>
-          </TD>
-          <TD class="tr0 td6">
-            <P class="p0 ft1">&nbsp;</P>
-          </TD>
-        </TR>
-        <TR>
-          <TD class="tr2 td3">
-            <P class="p0 ft10">Дата рождения</P>
-          </TD>
-          <TD class="tr2 td4">
-            <P class="p8 ft10">Паспорт серия Номер</P>
-          </TD>
-          <TD class="tr2 td5">
-            <P class="p0 ft1">&nbsp;</P>
-          </TD>
-          <TD class="tr2 td6">
-            <P class="p0 ft1">&nbsp;</P>
-          </TD>
-        </TR>
-        <TR>
-          <TD class="tr3 td3">
-            <P class="p0 ft10">Кем выдан</P>
-          </TD>
-          <TD class="tr3 td4">
-            <P class="p0 ft1">&nbsp;</P>
-          </TD>
-          <TD class="tr3 td5">
-            <P class="p0 ft10">Мобильный телефон<SPAN class="ft11">*</SPAN></P>
-          </TD>
-          <TD class="tr3 td6">
-            <P class="p0 ft10">ИНН (при наличии)</P>
-          </TD>
-        </TR>
-        <TR>
-          <TD class="tr4 td3">
-            <P class="p0 ft10">Дата выдачи</P>
-          </TD>
-          <TD class="tr4 td4">
-            <P class="p0 ft10">Код подразделения</P>
-          </TD>
-          <TD class="tr4 td5">
-            <P class="p0 ft10">Адрес электронной почты<SPAN class="ft11">*</SPAN></P>
-          </TD>
-          <TD class="tr4 td6">
-            <P class="p0 ft1">&nbsp;</P>
-          </TD>
-        </TR>
-      </TABLE>
-      <P class="p9 ft13"><SPAN class="ft12">*</SPAN>Для получения информации от Страховщика и направления информации
+      <div class="container">
+        <P class="p6 ft5"><SPAN class="ft5">2.</SPAN><SPAN class="ft9">СТРАХОВАТЕЛЬ</SPAN></P>
+        <TABLE id="table" cellpadding=0 cellspacing=0 class="t1">
+          <TR>
+            <TD class="tr0 td3">
+              <P class="p0 ft10">ФИО страхователя</P>
+            </TD>
+            <TD class="tr0 td4">
+              <P class="p0 ft1">&nbsp;</P>
+            </TD>
+            <TD class="tr0 td5">
+              <P class="p7 ft10">Адрес места регистрации</P>
+            </TD>
+            <TD class="tr0 td6">
+              <P class="p0 ft1">&nbsp;</P>
+            </TD>
+          </TR>
+          <TR>
+            <TD class="tr2 td3">
+              <P class="p0 ft10">Дата рождения</P>
+            </TD>
+            <TD class="tr2 td4">
+              <P class="p8 ft10">Паспорт серия Номер</P>
+            </TD>
+            <TD class="tr2 td5">
+              <P class="p0 ft1">&nbsp;</P>
+            </TD>
+            <TD class="tr2 td6">
+              <P class="p0 ft1">&nbsp;</P>
+            </TD>
+          </TR>
+          <TR>
+            <TD class="tr3 td3">
+              <P class="p0 ft10">Кем выдан</P>
+            </TD>
+            <TD class="tr3 td4">
+              <P class="p0 ft1">&nbsp;</P>
+            </TD>
+            <TD class="tr3 td5">
+              <P class="p0 ft10">Мобильный телефон<SPAN class="ft11">*</SPAN></P>
+            </TD>
+            <TD class="tr3 td6">
+              <P class="p0 ft10">ИНН (при наличии)</P>
+            </TD>
+          </TR>
+          <TR>
+            <TD class="tr4 td3">
+              <P class="p0 ft10">Дата выдачи</P>
+            </TD>
+            <TD class="tr4 td4">
+              <P class="p0 ft10">Код подразделения</P>
+            </TD>
+            <TD class="tr4 td5">
+              <P class="p0 ft10">Адрес электронной почты<SPAN class="ft11">*</SPAN></P>
+            </TD>
+            <TD class="tr4 td6">
+              <P class="p0 ft1">&nbsp;</P>
+            </TD>
+          </TR>
+        </TABLE>
+      </div>
+
+
+      <P class="p9 ft13"> *Для получения информации от Страховщика и направления информации
         Страховщику (в том числе юридически значимых сообщений).</P>
     </div>
-    <DIV id="id1_2">
-      <DIV id="id1_2_1">
+    <DIV id="id1_2_1">
+      <div class="container">
         <P class="p10 ft5">3.ВЫГОДОПРИОБРЕТАТЕЛЬ</P>
+        <input class="p10__input" type="text">
+      </div>
+      <DIV id="id1_2">
+
+
         <P class="p11 ft3"><SPAN class="ft3">4.</SPAN><SPAN class="ft14">ЗАСТРАХОВАННОЕ ИМУЩЕСТВО</SPAN></P>
         <P class="p12 ft17"><SPAN class="ft15">4.1.</SPAN><SPAN class="ft16">Застрахованным по настоящему полису
             является имущество страхователя, фото изображения которого содержатся в Приложении № 1 к настоящему Полису,
