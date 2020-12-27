@@ -1,56 +1,52 @@
-.container__input {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
+html,
+body {
+  font-family: Tahoma, sans-serif;
+  font-size: 11px;
+  line-height: 11px;
+  text-align: justify;
+  color: #575756;
+}
+
+.title {
+  font-size: 12px;
+  line-height: 15px;
+  font-weight: bold;
+}
+
+.page {
+  width: 21cm;
+  height: 29.7cm;
+  border: 1px solid;
+}
+
+input {
+  border-radius: 5px;
+  border: 1px solid;
+}
+
+.logo {
+  max-width: 250px;
+}
+
+.header__input {
+
+  border: 1px solid #b3b2b2;
+  color: #b3b2b2;
+  border-radius: 5px;
+  padding: 3px;
+}
+
+.page__header {
   display: flex;
+  justify-content: space-between;
 }
 
-.container__input--left {
-  max-width: 50%;
-}
-
-.container__input--right {
-  max-width: 50%;
-}
-
-.date {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-}
-
-.getDate {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-}
-
-.date{
+.input__header {
+  border: none;
 
 }
-.input__date{
 
+.centre {
+  text-align: center;
+  margin: 10px 0;
 }
-.input__passport{
-
-}
-.input__number{
-  
-}
-<div class="date">
-<div>
-  <P class="p0 ft10">Дата рождения</P>
-  <input class="input__date" type="text">
-</div>
-<div>
-  <P class="p8 ft10">Паспорт Cерия</P>
-  <input class="input__passport" type="text">
-</div>
-<div>
-  <p class="p8 ft10">Номер</p>
-  <input class="input__number" type="text">
-</div>
-
-</div>
