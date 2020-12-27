@@ -51,10 +51,7 @@ input {
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-  -webkit-justify-content: space-between;
-  -ms-flex-pack: justify;
-  justify-content: space-between;
+
 }
 
 .input__header {
@@ -124,7 +121,12 @@ input {
   width: 111%;
 }
 
- 
+.space-between {
+  justify-content: space-between;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+}
 
 .section__input--right {
   width: 99%;
