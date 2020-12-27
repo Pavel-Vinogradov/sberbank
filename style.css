@@ -1,14 +1,14 @@
 html,
 body {
   font-family: Tahoma, sans-serif;
-  font-size: 12px;
+  font-size: 13px;
   line-height: 12px;
   text-align: justify;
   color: #575756;
 }
 
 .title {
-  font-size: 12px;
+  font-size: 13px;
   line-height: 15px;
   font-weight: bold;
 }
@@ -20,7 +20,7 @@ textarea {
 }
 
 .page {
-  width: auto;
+  width: 23cm;
   height: 29.7cm;
   border: 1px solid;
 }
@@ -43,7 +43,7 @@ input {
   border: 2px solid #b3b2b2;
   color: #b3b2b2;
   border-radius: 5px;
-  padding: 3px;
+  padding: 5px;
   display: inline;
 }
 
