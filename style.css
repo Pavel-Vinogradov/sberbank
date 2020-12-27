@@ -1,138 +1,56 @@
-/*
-* Prefixed by https://autoprefixer.github.io
-* PostCSS: v7.0.29,
-* Autoprefixer: v9.7.6
-* Browsers: last 4 version
-*/
-
-* {
-  box-sizing: border-box;
+.container__input {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
 }
 
-.page[size="A4"] {
-  width: 21cm;
-  height: 29.7cm;
+.container__input--left {
+  max-width: 50%;
 }
 
-html,
-body {
-  font-family: Tahoma, sans-serif;
-  font-size: 13px;
-  line-height: 1;
-  color: #565656;
-  font-weight: 300;
-  text-align: justify;
+.container__input--right {
+  max-width: 50%;
 }
 
-.container {
-  max-width: 1140px;
-  margin: 0 auto;
-  padding-top: 50px;
+.date {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
 }
 
-
-.header-input__text {
-
-  font-weight: 400;
-  color: #c2c2c2;
-  font-weight: 600;
-  text-transform: uppercase;
-  white-space: nowrap;
-
+.getDate {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
 }
 
-.header__input {
-  width: auto;
-  border: 0;
-  outline-style: none;
-}
-
-.logo {
-  width: 250px;
+.date{
 
 }
-
-input {
-  border-width: 1px;
-  border-style: solid;
-  border-color: -internal-light-dark(rgb(118, 118, 118), rgb(133, 133, 133));
-  -o-border-image: initial;
-  border-image: initial;
-  height: 25px;
-  outline: 0;
-  border-radius: 5px;
-}
-
-input:focus {
-  border: 1px solid #269b40;
+.input__date{
 
 }
-
-.title__text {
-  text-transform: uppercase;
-  font-weight: 600;
-  text-transform: uppercase;
-  font-family: Tahoma, sans-serif;
-  margin-bottom: 5px;
-}
-
-.centre {
-  text-align: center;
-  margin: 5px 0;
-}
-
-.section {
-  margin: 10px 0;
-  padding: 10px;
-  border: 2px solid #269b40;
-  border-radius: 5px;
-}
-
-.text {
-
-  margin-top: 5px;
+.input__passport{
 
 }
-
-.green {
-  color: #269b40;
+.input__number{
+  
 }
+<div class="date">
+<div>
+  <P class="p0 ft10">Дата рождения</P>
+  <input class="input__date" type="text">
+</div>
+<div>
+  <P class="p8 ft10">Паспорт Cерия</P>
+  <input class="input__passport" type="text">
+</div>
+<div>
+  <p class="p8 ft10">Номер</p>
+  <input class="input__number" type="text">
+</div>
 
-input {
-  width: 100%;
-
-}
-
-.title__number {
-  text-transform: uppercase;
-  font-weight: 600;
-  text-transform: uppercase;
-  font-family: Tahoma, sans-serif;
-}
-
-.ib {
-  display: inline-block;
-}
-
-.header-input__text2 {
-
-
-
-  text-transform: uppercase;
-  padding: 0 10px;
-}
-
-.header__input2 {
-  width: auto;
-
-
-}
-
-.left {
-  text-align: end;
-  margin-bottom: 10px;
-}
-textarea {
-  width: 100%;
-  border-radius: 5px;
-}
+</div>

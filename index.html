@@ -12,7 +12,9 @@
       display: inline-block;
     }
 
-
+    textarea {
+      border-radius: 5px;
+    }
 
     #page_1 {
       position: relative;
@@ -888,8 +890,8 @@
 
     .p6 {
       text-align: left;
-      padding-left: 7px;
-      margin-top: 27px;
+      /* padding-left: 7px; */
+      /* margin-top: 27px; */
       margin-bottom: 0px;
     }
 
@@ -903,7 +905,7 @@
 
     .p8 {
       text-align: left;
-      padding-left: 3px;
+      /* padding-left: 3px; */
       margin-top: 0px;
       margin-bottom: 0px;
       white-space: nowrap;
@@ -1586,13 +1588,22 @@
 
     }
 
+    input {
+      border-radius: 5px;
+      border: 1px solid;
+      height: 20px;
+    }
+
     .p10__input {
       width: 99%;
-      border-radius: 5px;
+
     }
   </style>
   <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css"
+    integrity="sha512-NmLkDIU1C/C88wi324HBc+S2kLhi08PN5GDeUVVVC/BVt/9Izdsc9SVeVfA1UZbY3sHUlDSyRXhCzHfr6hmPPw=="
+    crossorigin="anonymous" />
+  <link rel="stylesheet" href="style.css">
   <title>Sberbank</title>
 </head>
 
@@ -1662,7 +1673,55 @@
 
       <div class="container">
         <P class="p6 ft5"><SPAN class="ft5">2.</SPAN><SPAN class="ft9">СТРАХОВАТЕЛЬ</SPAN></P>
-        <TABLE id="table" cellpadding=0 cellspacing=0 class="t1">
+        <div class="container__input">
+          <div class="container__input--left">
+            <div class="name">
+              <P class="p0 ft10">ФИО страхователя</P>
+              <input class="input__name" type="text">
+            </div>
+            <div class="date">
+              <div>
+                <P class="p0 ft10">Дата рождения</P>
+                <input class="input__date" type="text">
+              </div>
+              <div>
+                <P class="p8 ft10">Паспорт Cерия</P>
+                <input class="input__passport" type="text">
+              </div>
+              <div>
+                <p class="p8 ft10">Номер</p>
+                <input class="input__number" type="text">
+              </div>
+
+            </div>
+
+            <div class="getPasport">
+              <P class="p0 ft10">Кем выдан</P>
+              <input class="input__get" type="text">
+            </div>
+            <div class="getDate">
+              <div>
+                <P class="p0 ft10">Дата выдачи</P>
+                <input class="input__getDate" type="text">
+              </div>
+              <div>
+                <P class="p0 ft10">Код подразделения</P>
+                <input class="input__code" type="text">
+              </div>
+            </div>
+
+
+          </div>
+          <div class="container__input--right">
+            <div class="adress">
+              <P class="p7 ft10">Адрес места регистрации</P>
+              <textarea name="" id="" cols="30" rows="2"></textarea>
+            </div>
+
+          </div>
+        </div>
+
+        <!-- <TABLE id="table" cellpadding=0 cellspacing=0 class="t1">
           <TR>
             <TD class="tr0 td3">
               <P class="p0 ft10">ФИО страхователя</P>
@@ -1719,7 +1778,7 @@
               <P class="p0 ft1">&nbsp;</P>
             </TD>
           </TR>
-        </TABLE>
+        </TABLE> -->
       </div>
 
 
