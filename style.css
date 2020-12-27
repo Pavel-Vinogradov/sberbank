@@ -20,7 +20,7 @@ textarea {
 }
 
 .page {
-  width: 21cm;
+  width: auto;
   height: 29.7cm;
   border: 1px solid;
 }
@@ -44,6 +44,7 @@ input {
   color: #b3b2b2;
   border-radius: 5px;
   padding: 3px;
+  display: inline;
 }
 
 .page__header {
@@ -51,7 +52,6 @@ input {
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-
 }
 
 .input__header {
@@ -118,7 +118,7 @@ input {
 }
 
 .section__input--left {
-  width: 111%;
+  width: 210px;
 }
 
 .space-between {
@@ -129,11 +129,5 @@ input {
 }
 
 .section__input--right {
-  width: 99%;
-}
-
-@media print {
-  .page {
-    width: auto;
-  }
+  width: 100%;
 }
