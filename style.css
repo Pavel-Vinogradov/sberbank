@@ -14,7 +14,7 @@ body {
 }
 
 .page {
-  width: auto;
+  width: 21cm;
   height: 29.7cm;
   border: 1px solid;
 }
@@ -68,4 +68,10 @@ input {
 .green {
   color: #3c8e4e;
   margin-bottom: 5px;
+}
+
+@media print {
+  .page {
+    width: auto;
+  }
 }
