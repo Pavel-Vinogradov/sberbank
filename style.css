@@ -152,3 +152,5 @@ input {
   display: flex;
   margin: 10px 0;
 }
+
+.header__form {text-align: end;}
