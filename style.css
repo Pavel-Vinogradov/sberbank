@@ -6,8 +6,8 @@
 html,
 body {
   font-family: 'Tahoma', sans-serif;
-  font-size: 14px;
-  line-height: 1.4;
+  font-size: 16px;
+  line-height: 1;
   text-align: justify;
   color: #565656;
 
@@ -16,7 +16,8 @@ body {
 
 .title {
   font-family: 'Tahoma-bold';
-  font-size: 14px;
+  font-size: 16px;
+  text-align: left;
 
   font-weight: bold;
 }
@@ -24,7 +25,7 @@ body {
 textarea {
   border-radius: 5px;
   width: 495px;
-  height: 90px;
+  height: 108px;
 }
 
 .page {
@@ -39,7 +40,7 @@ input {
   border-width: 1px;
   border-style: solid;
   border-color: -internal-light-dark(rgb(118, 118, 118), rgb(133, 133, 133));
-  height: 25px;
+  height: 35px;
   outline: none;
 }
 
@@ -66,6 +67,7 @@ input {
 .input__header {
   border: none;
   display: inline;
+  height: 25px;
 
 }
 
@@ -132,7 +134,7 @@ input {
 }
 
 .section__input--left {
-  width: 310px;
+  width: 255px;
 }
 
 .space-between {
