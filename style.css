@@ -7,7 +7,7 @@ html,
 body {
   font-family: 'Tahoma', sans-serif;
   font-size: 14px;
-  line-height: 1.2;
+  line-height: 1.4;
   text-align: justify;
   color: #565656;
   line-height: 1.4;
@@ -153,4 +153,13 @@ input {
   margin: 10px 0;
 }
 
-.header__form {text-align: end;}
+.header__form {
+  text-align: end;
+}
+
+.square {
+  width: 470px;
+  height: 470px;
+  border: 1px solid;
+  border-radius: 5px;
+}
