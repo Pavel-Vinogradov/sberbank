@@ -15,6 +15,10 @@ body {
 
 }
 
+.wh {
+  letter-spacing: 1px;
+}
+
 .title {
   font-family: 'Tahoma-bold';
   font-size: 16px;
