@@ -18,4 +18,9 @@
   font-weight: 700;
   font-style: normal;
 }
-font-family: 'Tahoma';
+
+
+html,
+body {
+  font-family: 'Tahoma';
+}

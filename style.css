@@ -10,11 +10,12 @@ body {
   line-height: 1.4;
   text-align: justify;
   color: #565656;
-  line-height: 1.4;
+
+
 }
 
 .title {
-
+  font-family: 'Tahoma-bold';
   font-size: 14px;
 
   font-weight: bold;
