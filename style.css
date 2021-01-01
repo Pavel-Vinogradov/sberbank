@@ -6,17 +6,21 @@
 html,
 body {
   font-family: 'Tahoma', sans-serif;
-  font-size: 16px;
-  line-height: 1.05;
+  font-size: 15px;
+  line-height: 1;
   text-align: justify;
   color: #565656;
   letter-spacing: normal;
   word-spacing: normal;
+  letter-spacing: 1.5px;
+}
 
+ul {
+  list-style: none;
 }
 
 .wh {
-  letter-spacing: 1px;
+  /* letter-spacing: 1px; */
 }
 
 .title {
@@ -172,4 +176,10 @@ input {
   height: 470px;
   border: 1px solid;
   border-radius: 5px;
+}
+
+.ai-c {
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
 }
